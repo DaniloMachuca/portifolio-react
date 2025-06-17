@@ -4,7 +4,11 @@ import Text from "../../components/Text";
 
 import { Description, BtnTheme, SidebarContainer } from "./styles";
 
-const Sidebar = () => (
+type Props = {
+  handleTheme: () => void;
+};
+
+const Sidebar = (Props: Props) => (
   <aside>
     <SidebarContainer>
       <Avatar />
@@ -21,7 +25,7 @@ const Sidebar = () => (
         </Text>
         <Text fontSize={12}>danilo.machuca.dev@gmail.com</Text>
       </Description>
-      <BtnTheme>Trocar Tema</BtnTheme>
+      <BtnTheme onClick={Props.handleTheme}>Trocar Tema</BtnTheme>
     </SidebarContainer>
   </aside>
 );
