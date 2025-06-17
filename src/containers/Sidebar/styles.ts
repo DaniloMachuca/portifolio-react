@@ -1,7 +1,6 @@
 import styled from "styled-components";
-import { Text } from "../../components/Text/styles";
 
-export const Description = styled(Text)`
+export const Description = styled.div`
   margin-top: 24px;
   margin-bottom: 40px;
 `;

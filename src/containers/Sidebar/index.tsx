@@ -12,8 +12,14 @@ const Sidebar = () => (
       <Text color="secondary" fontSize={16}>
         DaniloMachuca
       </Text>
-      <Description color="primary" fontSize={12}>
-        Desenvolvedor front-end
+      <Description>
+        <Text fontSize={12}>Desenvolvedor Front-End</Text>
+      </Description>
+      <Description>
+        <Text fontWeight={"bold"} fontSize={12}>
+          Email para contato:
+        </Text>
+        <Text fontSize={12}>danilo.machuca.dev@gmail.com</Text>
       </Description>
       <BtnTheme>Trocar Tema</BtnTheme>
     </SidebarContainer>

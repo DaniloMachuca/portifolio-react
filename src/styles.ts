@@ -28,7 +28,7 @@ export const Container = styled.div`
   margin: 0 auto;
   display: grid;
   grid-template-columns: 148px auto;
-  gap: 56px;
+  gap: 80px;
 
   @media (max-width: 768px) {
     max-width: 80%;
