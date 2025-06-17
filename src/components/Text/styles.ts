@@ -11,4 +11,5 @@ export const Text = styled.p<Props>`
       : (props.theme as Theme).ColorSecondary};
   line-height: 22px;
   font-weight: ${(props) => (props.fontWeight ? props.fontWeight : "normal")};
+  margin-bottom: 16px;
 `;
